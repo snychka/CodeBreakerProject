@@ -1,3 +1,10 @@
+// http://plnkr.co/edit/Xt0fKn51QmJk1jqZvxLl
+//
+
+// Okay, just pull down the solution branch. https://github.com/codeschool-projects/CodeBreakerProject/tree/solution then change `let attempt = document.getElementById('attempt');` to `let attempt = document.getElementById('attempt').value` (line 2) as well as change anywhere we use `attempt.value` to be just `attempt` (lines 6, 14, and 22) this will recreate the issue specifically on the attempt variable (edited)
+
+// Oh all of those js changes are on the main.js file in src/assets/main.js. the tests are located in the test folder
+
 let answer = document.getElementById('answer');
 answer.type = "visible";
 let attempt = document.getElementById('attempt');
